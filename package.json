@@ -1,0 +1,19 @@
+{
+  "name": "simple-test-library",
+  "version": "0.1.0",
+  "description": "This library allows you test your apps with mocha syntax, but includes JSDOM support.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "tme": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "jsdom": "^16.4.0"
+  }
+}
